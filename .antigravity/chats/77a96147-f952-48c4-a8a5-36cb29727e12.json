@@ -3,6 +3,43 @@
   "name": "안녕",
   "createdAt": "2026-11-18T22:02:40.700Z",
   "filename": "77a96147-f952-48c4-a8a5-36cb29727e12.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "58da1138-fda0-44a2-93d8-4225b9eb1277",
+      "role": "user",
+      "content": "안녕",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-18T22:02:56.753Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "c262c39b-66bc-447b-8d81-6f092de82c19",
+      "role": "agent",
+      "content": "안녕하세요! 무엇을 도와드릴까요?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "58da1138-fda0-44a2-93d8-4225b9eb1277",
+      "created_at": "2026-11-18T22:03:03.233Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "02f7da8c-d5db-4d51-bf80-d98b54742b63",
+      "role": "user",
+      "content": "로구인됫어?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-18T22:03:10.437Z",
+      "sender": "ios",
+      "is_cancelled": false
+    }
+  ]
 }
