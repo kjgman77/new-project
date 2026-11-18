@@ -40,6 +40,66 @@
       "created_at": "2026-11-18T22:03:10.437Z",
       "sender": "ios",
       "is_cancelled": false
+    },
+    {
+      "id": "54317072-26ea-450b-b3b1-f275d58664d4",
+      "role": "agent",
+      "content": "현재 AI 어시스턴트와의 대화 세션은 정상적으로 연결되어 있습니다!\n\n혹시 어떤 로그인을 확인하고 싶으신가요?\n\n- **GitHub 연동 확인**: 아직 GitHub 저장소가 연동되지 않은 상태입니다. 연동을 원하시면 **채팅창 상단의 GitHub 아이콘**을 눌러 저장소를 연결해 주시면 지금까지의 작업 내역이 함께 연동됩니다.\n- **특정 서비스/웹사이트 로그인**: 구현하려는 웹사이트나 특정 계정의 로그인을 말씀하신 것이라면 어떤 서비스인지 편하게 말씀해 주세요!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "02f7da8c-d5db-4d51-bf80-d98b54742b63",
+      "created_at": "2026-11-18T22:03:26.288Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "79de8111-9e1e-4b89-9dda-2c6a70145d6a",
+      "role": "user",
+      "content": "내 컴퓨터 조작 하려면 내가 깃허브랑 솔 이거 권한주면 내거 crm수정도 너가 직접가능하지?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-18T22:04:21.572Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "4170ff08-04ac-4f4f-a554-4119973aada6",
+      "role": "agent",
+      "content": "정확한 동작 방식을 안내해 드릴게요.\n\n### 1. 사용자의 컴퓨터(PC) 직접 제어\n저는 사용자의 개인 PC에 원격 접속하여 마우스·키보드를 직접 움직이는 방식이 아니라, **독립된 클라우드 개발 환경**에서 작동합니다. 따라서 사용자 PC의 로컬 화면을 직접 조작하는 것은 아닙니다.\n\n### 2. CRM 수정 가능 여부\n대신 **CRM이 어떤 형태인지**에 따라 직접 수정이 가능합니다:\n\n- **CRM 소스 코드가 있는 경우 (GitHub)**:\n  - 채팅창 상단의 **GitHub 아이콘**을 통해 CRM 저장소를 연동해 주시면, 제가 직접 **코드 분석, 기능 추가, UI 수정, 버그 패치** 등을 수행할 수 있습니다.\n- **SaaS/웹 서비스 형태의 CRM (예: Salesforce, 채널톡 등)**:\n  - API 연동 권한(API Key/토큰)이 제공된다면 데이터를 자동으로 동기화하거나 수정하는 연동 프로그램을 개발해 드릴 수 있습니다.\n\n> [!NOTE]\n> 말씀하신 **'솔'**이 솔루션(Solution), Salesforce, 또는 특정 도구를 뜻하는 것인가요? 사용 중이신 CRM 환경(자체 구축 웹앱, 오픈소스, 특정 솔루션 등)을 조금 더 알려주시면 구체적으로 어떻게 작업할 수 있는지 안내해 드리겠습니다!",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "79de8111-9e1e-4b89-9dda-2c6a70145d6a",
+      "created_at": "2026-11-18T22:04:36.240Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "54900d3c-96a4-43ed-be7c-e0da55f10974",
+      "role": "user",
+      "content": "깃허브 연동된건가?",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-18T22:05:32.192Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "10a77460-b35a-40e8-ad38-58b450648412",
+      "role": "agent",
+      "content": "아직 GitHub 저장소가 연동되지 않은 상태입니다.\n\n연동을 원하시면 **채팅창 상단의 GitHub 아이콘**을 눌러 저장소를 연결해 주세요. 연결하시면 지금까지의 작업 내역이 자동으로 GitHub에 반영됩니다.",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "54900d3c-96a4-43ed-be7c-e0da55f10974",
+      "created_at": "2026-11-18T22:05:41.392Z",
+      "sender": "macOS",
+      "is_cancelled": false
     }
   ]
 }
